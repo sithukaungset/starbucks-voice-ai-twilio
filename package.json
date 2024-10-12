@@ -1,0 +1,29 @@
+{
+  "name": "speech-assistant-openai-realtime-api-node",
+  "version": "1.0.0",
+  "description": "This application demonstrates how to use Node.js, [Twilio Voice](https://www.twilio.com/docs/voice) and [Media Streams](https://www.twilio.com/docs/voice/media-streams), and [OpenAI's Realtime API](https://platform.openai.com/docs/) to make a phone call to speak with an AI Assistant.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@azure/search-documents": "^12.1.0",
+    "@fastify/formbody": "^8.0.1",
+    "@fastify/websocket": "^11.0.1",
+    "dotenv": "^16.4.5",
+    "fastify": "^5.0.0",
+    "ws": "^8.18.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twilio-samples/speech-assistant-openai-realtime-api-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/twilio-samples/speech-assistant-openai-realtime-api-node/issues"
+  },
+  "homepage": "https://github.com/twilio-samples/speech-assistant-openai-realtime-api-node#readme"
+}
